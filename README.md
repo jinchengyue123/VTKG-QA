@@ -8,7 +8,7 @@
 
 The repository is organized as follows to support both dataset access and visualization:
 
-* **[📁 Supplementary_Material](./Supplementary_Material)**: Contains comprehensive supplementary materials for the paper, including Level 1-3 taxonomy, logical path validity (LPV) definitions, and additional experimental results.
+* **[📁 Supplementary_Material](./Supplementary_Material)**: Contains comprehensive supplementary materials for the paper.
 * **📁 VTKG-QA**: Core dataset components.
     * `🖼️ image_tkg/`: Sequences of visualized temporal knowledge graphs.
     * `📝 text_tkg/`: Corresponding textual descriptions and metadata for each graph frame.
@@ -33,8 +33,3 @@ Experience the dynamic evolution of VTKG directly in your browser without any in
 
 ---
 
-## 🛠️ Getting Started
-
-### 1. Environment Setup
-```bash
-pip install -r requirements.txt
