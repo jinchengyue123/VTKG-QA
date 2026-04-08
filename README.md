@@ -29,7 +29,7 @@
 
 ### 🌐 交互式可视化 Demo (Interactive Demo)
 无需下载，直接点击下方链接即可在浏览器中预览 VTKG 的动态演化过程：
-👉 **[🚀 点击直接弹出可视化 Demo](https://htmlpreview.github.io/?https://github.com/jinchengyue123/VTKG-QA/blob/main/html/Citizen_1_2014-03-12_10.html)**
+👉 **[🚀 点击直接弹出可视化 Demo](https://raw.githack.com/jinchengyue123/VTKG-QA/main/html/Citizen_1_2014-03-12_10.html)**
 
 ---
 
