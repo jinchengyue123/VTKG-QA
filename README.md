@@ -1,39 +1,44 @@
-# 🚀 TVKG-QA: Temporal Visual Knowledge Graph Question Answering
+# 🚀 VTKG-QA: Visual Temporal Knowledge Graph Question Answering
 
-本项目是一个大规模的时序视觉知识图谱问答基准测试。以下是仓库的核心目录结构及其功能说明，旨在帮助研究人员快速了解数据集构成与工具使用。
-
----
-
-## 📂 目录结构说明 (Project Structure)
-
-项目文件按照功能模块清晰划分：
-
-### 📚 [Supplementary Material](./Supplementary_Material)
-* **[📁 补充材料快捷访问](./Supplementary_Material)**：包含 Level 1-3 的详细问题模板、逻辑路径定义、Bad Cases 分析以及详细的实验结果补充。
-
-### 📊 VTKG-QA (核心数据集)
-* **📁 image_tkg/**: 存放生成的时序知识图谱图像序列（.png/.jpg）。
-* **📁 text_tkg/**: 对应的图谱文本描述，包含节点与关系的属性信息。
-* **📄 tkg_qa.jsonl**: 核心 QA 数据集文件，包含问题、标准答案以及推理路径标注。
-
-### 🛠️ Visualizer (可视化工具)
-* **🐍 TemporalVisualizer.py**: 负责动态图谱演化与渲染的核心 Python 模块。
-* **▶️ run_demo.py**: 快速演示脚本，用于生成图谱序列的视觉呈现。
-* **📄 icews14.jsonl**: 用于演示的采样数据片段。
-
-### 🌐 html (交互式演示)
-* **📁 html/**: 存放导出的交互式可视化页面，可通过浏览器直接查看图谱的动态变化。
-
-### 💾 source_data (原始数据源)
-* **📁 entity_relation_mapping/**: 实体与关系的映射表，确保不同数据源间的一致性。
-* **📁 icews05-15 / icews14 / wikidata / yago**: 包含各个原始知识库（ICEWS, Wikidata, YAGO）的结构化数据，用于构建时序图谱。
+**VTKG-QA** 是一个大规模基准测试数据集，专注于评估多模态大模型（MLLMs）在动态可视化图谱序列上的时空推理与拓扑感知能力。
 
 ---
 
-## 🔗 快速链接 (Quick Links)
+## 📂 目录结构 (Directory Structure)
 
-* 📖 **[查看补充材料 (Supplementary Materials)](./Supplementary_Material)**
-* 🖼️ **[浏览图像数据 (Image TKG)](./VTKG-QA/image_tkg)**
-* 🖥️ **[运行可视化 Demo (Visualizer)](./Visualizer/run_demo.py)**
+本仓库的文件组织如下：
+
+* **[📁 Supplementary_Material](./Supplementary_Material)**: 包含 Level 1-3 的详细问题模板、逻辑路径有效性（LPV）定义及实验补充数据。
+* **📁 VTKG-QA**: 数据集核心文件。
+    * `🖼️ image_tkg/`: 时序知识图谱的图像序列。
+    * `📝 text_tkg/`: 图像对应的文本描述信息。
+    * `📊 tkg_qa.jsonl`: 包含 QA 对及推理标注的主数据文件。
+* **📁 Visualizer**: 可视化工具包。
+    * `🐍 TemporalVisualizer.py`: 动态图渲染核心代码。
+    * `▶️ run_demo.py`: 示例运行脚本。
+* **[📁 html](./html)**: 交互式可视化 Demo 存放处。
+* **📁 source_data**: 原始数据源（ICEWS, Wikidata, YAGO 等）。
 
 ---
+
+## 🔗 快速访问 (Quick Access)
+
+### 📖 补充材料 (Supplementary Materials)
+关于数据集的详细 Taxonomy 和实验设置，请参阅：
+👉 **[点击进入补充材料页面](./Supplementary_Material)**
+
+### 🌐 交互式可视化 Demo (Interactive Demo)
+无需下载，直接点击下方链接即可在浏览器中预览 VTKG 的动态演化过程：
+👉 **[🚀 点击直接弹出可视化 Demo](https://htmlpreview.github.io/?https://github.com/你的用户名/你的项目名/blob/main/html/你的文件名.html)**
+
+> **提示**：请将上方链接中的 `你的用户名`、`你的项目名` 和 `你的文件名.html` 替换为实际的 GitHub 信息。
+
+---
+
+## 🛠️ 快速开始 (Quick Start)
+
+如果需要在本地运行可视化工具：
+
+1. **配置环境**:
+   ```bash
+   pip install -r requirements.txt
