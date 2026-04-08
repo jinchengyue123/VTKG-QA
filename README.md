@@ -8,7 +8,7 @@
 
 本仓库的文件组织如下：
 
-* **[📁 Supplementary_Material](./Supplementary_Material)**: 包含 Level 1-3 的详细问题模板、逻辑路径有效性（LPV）定义及实验补充数据。
+* **[📁 Supplementary_Material](./Supplementary_Material)**:
 * **📁 VTKG-QA**: 数据集核心文件。
     * `🖼️ image_tkg/`: 时序知识图谱的图像序列。
     * `📝 text_tkg/`: 图像对应的文本描述信息。
@@ -29,16 +29,7 @@
 
 ### 🌐 交互式可视化 Demo (Interactive Demo)
 无需下载，直接点击下方链接即可在浏览器中预览 VTKG 的动态演化过程：
-👉 **[🚀 点击直接弹出可视化 Demo](https://htmlpreview.github.io/?https://github.com/你的用户名/你的项目名/blob/main/html/你的文件名.html)**
-
-> **提示**：请将上方链接中的 `你的用户名`、`你的项目名` 和 `你的文件名.html` 替换为实际的 GitHub 信息。
+👉 **[🚀 点击直接弹出可视化 Demo](https://htmlpreview.github.io/?https://github.com/jinchengyue123/VTKG-QA/blob/main/html/Citizen_1_2014-03-12_10.html)**
 
 ---
 
-## 🛠️ 快速开始 (Quick Start)
-
-如果需要在本地运行可视化工具：
-
-1. **配置环境**:
-   ```bash
-   pip install -r requirements.txt
