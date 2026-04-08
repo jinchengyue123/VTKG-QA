@@ -1,6 +1,6 @@
 # 🚀 VTKG-QA: Visual Temporal Knowledge Graph Question Answering
 
-**VTKG-QA** is a large-scale benchmark designed to evaluate the **spatio-temporal reasoning** and **topological awareness** of Multimodal Large Language Models (MLLMs) over dynamic visual graph sequences.
+**VTKG-QA** is a large-scale benchmark designed to evaluate the **spatio-temporal reasoning** and **topological awareness** of Large Multimodal Models (LMMs) over dynamic visual graph sequences.
 
 ---
 
